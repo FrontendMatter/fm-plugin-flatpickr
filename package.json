@@ -1,6 +1,6 @@
 {
   "name": "fm-plugin-flatpickr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "FrontendMatter <contact@frontendmatter.com> (http://www.frontendmatter.com)",
   "license": "UNLICENSED",
   "main": "js/flatpickr.js",
@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/FrontendMatter/fm-plugin-flatpickr/issues"
   },
-  "homepage": "https://github.com/FrontendMatter/fm-plugin-flatpickr#readme"
+  "homepage": "https://github.com/FrontendMatter/fm-plugin-flatpickr#readme",
+  "dependencies": {
+    "flatpickr": "^4.5.2"
+  }
 }

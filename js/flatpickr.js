@@ -10,6 +10,12 @@
       altInput: void 0 !== element.data('flatpickr-alt-input')
         ? element.data('flatpickr-alt-input')
         : true,
+      altInputClass: void 0 !== element.data('flatpickr-alt-input-class') 
+        ? element.data('flatpickr-alt-input-class') 
+        : 'form-control flatpickr-input',
+      monthSelectorType: void 0 !== element.data('flatpickr-month-selector-type') 
+        ? element.data('flatpickr-month-selector-type') 
+        : 'static',
       altFormat: void 0 !== element.data('flatpickr-alt-format')
         ? element.data('flatpickr-alt-format')
         : 'F j, Y',
